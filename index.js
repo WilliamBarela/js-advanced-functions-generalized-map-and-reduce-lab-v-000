@@ -8,15 +8,12 @@ const map = (arr, f) => {
 };
 
 const reduce = (arr, f, startingPoint) => {
-  sum 
-  if (startingPoint || typeof arr[0] === "number"){
-    
-  } else {
-    
+  let reducedValue = (!!startingPoint) ? startingPoint : arr[0];
+  let i = (!!startingPoint) ? 0 : 1;
+
+  for (; i < arr.length; i++) {
+    r = f(arr[i], reducedValue);
   }
-  
-  for(const elem of arr){
-    reducedVal += elem
-  }
-  return reducedVal
-}
+
+  return reducedValue;
+};
