@@ -6,3 +6,7 @@ const map = (arr, f) => {
   }
   return transform;
 };
+
+const reduce = (arr, f) => {
+  
+}
