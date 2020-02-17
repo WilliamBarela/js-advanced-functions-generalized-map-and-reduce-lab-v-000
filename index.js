@@ -8,7 +8,11 @@ const map = (arr, f) => {
 };
 
 const reduce = (arr, f, startingPoint) => {
-  let reducedVal = startingPoint === undefined ? arr[0] : startingPoint;
+  if (startingPoint){
+    
+  } else {
+    
+  }
   
   for(const elem of arr){
     reducedVal += elem
