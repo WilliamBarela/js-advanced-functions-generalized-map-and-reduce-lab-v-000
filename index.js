@@ -12,7 +12,7 @@ const reduce = (arr, f, startingPoint) => {
   let i = (!!startingPoint) ? 0 : 1;
 
   for (; i < arr.length; i++) {
-    r = f(arr[i], reducedValue);
+    reducdedValue = f(arr[i], reducedValue);
   }
 
   return reducedValue;
