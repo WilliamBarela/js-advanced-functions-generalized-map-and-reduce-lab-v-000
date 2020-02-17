@@ -8,7 +8,7 @@ const map = (arr, f) => {
 };
 
 const reduce = (arr, f, startingPoint = 0) => {
-  reducedVal = startingPoint
+  let reducedVal = startingPoint
   
   for(const elem of arr){
     reducedVal += elem
