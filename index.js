@@ -13,5 +13,5 @@ const reduce = (arr, f, startingPoint = 0) => {
   for(const elem of arr){
     reducedVal += elem
   }
-  return r
+  return reducedVal
 }
